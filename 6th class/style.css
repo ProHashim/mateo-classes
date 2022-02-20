@@ -1,0 +1,123 @@
+html {
+  font-size: 16px;
+}
+
+ul {
+  /* background-color: slategray;  */
+  /* color: aqua;  */
+}
+
+ul li {
+  /* color: green;
+  background-color: aqua;
+  margin: 20px; */
+}
+
+.myul li {
+  /* color: green;
+  background-color: aqua;
+  margin: 20px; */
+}
+
+.myli {
+  color: green;
+  background-color: aqua;
+  margin: 20px;
+}
+
+.mylabel {
+  color: green;
+}
+
+.name-input {
+  padding: 0;
+  /* border: 2px dotted sienna; */
+  transition: all 0.5s;
+}
+.name-input:hover {
+  border: none;
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+  color: maroon;
+  font-size: 2rem;
+  transition: all 1s ease;
+}
+
+a:hover {
+  color: aqua;
+}
+
+.mybtn {
+  text-decoration: none;
+  color: maroon;
+  font-size: 2rem;
+  background-color: transparent;
+  border: 2px solid sienna;
+  background: sienna;
+  color: white;
+  padding: 5px 20px;
+  border-radius: 10px;
+  transition: all 1s ease;
+}
+
+.mybtn:hover {
+  border-radius: 0;
+  background: transparent;
+  color: #000;
+}
+
+::selection {
+  /* background: #000; */
+  /* color: #fff; */
+}
+
+ul li:nth-child(2) {
+  display: none;
+}
+
+.mydiv p:nth-child(2) {
+  color: red;
+}
+
+a::before {
+  content: "👉";
+}
+
+a::after {
+  content: "👈";
+}
+
+p::first-letter {
+  font-size: 30px;
+}
+
+.mydiv p {
+  border: 1px solid green;
+}
+
+.mydiv {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  /* flex-direction: column; */
+  align-items: center;
+}
+.mydiv p {
+  flex: 1;
+}
+
+.myflex {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  /* flex-direction: column; */
+  align-items: center;
+}
+
+.myflex div {
+  flex: 1;
+  border: 2px solid green;
+}

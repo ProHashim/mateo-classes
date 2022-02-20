@@ -1,0 +1,55 @@
+/* External css */
+/* 
+selector {
+  propertyname: propertyValue;
+}
+
+.classname {
+  background-color: #f00;
+} */
+
+#mypara {
+  /* color name */
+  /* color: red; */
+
+  /* hex code */
+  /* 3 or 6
+    #rrggbb
+  */
+  /* color: #ff0000; */
+
+  /* rgb() */
+  /* 0-255 */
+  /* color: rgb(0, 0, 255); */
+
+  /* rgba() */
+  /* 0-1 */
+  color: rgba(0, 0, 255, 0.8);
+}
+
+/* p is a selector */
+
+p {
+  /* propertyname: propertyValue; */
+  color: green;
+}
+
+.mydiv {
+  background-color: violet;
+  /* padding: 10px */
+  /* padding-left: 50px; */
+  /* padding-top: 20px; */
+  /* padding-bottom: ; */
+  /* padding-right: ; */
+  padding: 10px 20px 30px 40px;
+  padding: 10px;
+  margin: 10px;
+  /* TRBL */
+  margin: 10px 20px 30px 40px;
+
+  border: 2px solid black;
+  outline: 3px solid green;
+}
+
+/* HOME Work */
+/* Types of selector */

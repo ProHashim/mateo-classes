@@ -1,0 +1,75 @@
+nav {
+  width: 100%;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+ul li {
+  /* display: inline-block; */
+  margin-right: 10px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: sienna;
+}
+
+.mycolumn {
+  /* columns: 2 */
+  /* -webkit-columns: 2; */
+  /* -moz-columns: 2; */
+  /* -ms-columns: 2; */
+  /* display: flex; */
+  /* -webkit-animation: none; */
+  /* z-index: 3; */
+  position: relative;
+  z-index: 2;
+}
+
+.mycolumn img {
+  /* float: left;  */
+  /* float: right; */
+  /* float: none; */
+
+  /* position: static;  */
+  position: relative;
+  /* position: absolute; */
+  top: 40px;
+  /* left: 50px; */
+  /* bottom: 30px; */
+  /* z-index: 2; */
+  /* right: 20px; */
+  /* position: fixed;  */
+  /* bottom: 20px; */
+  /* right: 20px; */
+  z-index: 3;
+}
+
+.mybtn {
+  position: sticky;
+  top: 20px;
+}
+
+.mygrid {
+  /* display: grid; */
+  display: inline-grid;
+  grid-template-columns: 33% 33% 33%;
+  grid-template-rows: auto;
+}
+
+.mygrid div {
+  width: 100px;
+  height: 100px;
+  background-color: sienna;
+  margin: 2px;
+  /* margin: 0 auto; */
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+}

@@ -1,0 +1,27 @@
+.bg {
+  color: brown;
+  background-color: yellow;
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px 10px;
+}
+.mat {
+  color: brown;
+  font-size: 50px;
+}
+.whatever {
+  color: violet;
+}
+#has {
+  color: green;
+  font-size: 20px;
+}
+.hi {
+  color: blue;
+  font-size: 20px;
+}
